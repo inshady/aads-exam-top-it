@@ -1,7 +1,6 @@
-#include "person.hpp"
+#include "data.hpp"
 #include "commands.hpp"
 #include "io_utils.hpp"
-#include "../common/hash_table.hpp"
 
 #include <fstream>
 
@@ -67,4 +66,3 @@ int main(int argc, char** argv)
   std::cerr << d.second.success << ' ' << d.second.ignored << '\n';
   return 0;
 }
-

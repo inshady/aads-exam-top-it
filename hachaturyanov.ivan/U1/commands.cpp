@@ -1,6 +1,7 @@
 #include "commands.hpp"
 
 #include <functional>
+#include "data.hpp"
 
 namespace hachaturyanov
 {
@@ -39,4 +40,3 @@ namespace hachaturyanov
     } while (it != order.begin());
   }
 }
-

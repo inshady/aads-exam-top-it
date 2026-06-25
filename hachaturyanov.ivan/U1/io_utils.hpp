@@ -12,4 +12,3 @@ namespace hachaturyanov
 }
 
 #endif
-

@@ -70,4 +70,3 @@ namespace hachaturyanov
     return result;
   }
 }
-
