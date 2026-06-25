@@ -2,7 +2,6 @@
 
 namespace hachaturyanov
 {
-
   Meet::Meet(List< List< std::string > > data):
    meets(),
    people()
@@ -37,4 +36,19 @@ namespace hachaturyanov
     } while (it != data.begin());
   }
 
+  List< size_t > Meet::getAnons() const
+  {
+    List< size_t > result;
+    List< size_t > allpeople = people.keys();
+    for (size_t i = 0; i < people.size(); i++) {
+      auto it = allpeople.begin();
+      do {
+        if (people[*it] == "") {
+          result.insertSorted(*it);
+        }
+        ++it;
+      } while (it != allpeople.begin());
+    }
+    return result;
+  }
 }

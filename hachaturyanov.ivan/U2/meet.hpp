@@ -13,6 +13,8 @@ namespace hachaturyanov {
     PersonTable people;
   public:
     Meet(List< List< std::string > > data);
+
+    List< size_t > getAnons() const;
   };
 }
 
