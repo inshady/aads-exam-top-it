@@ -39,3 +39,4 @@ namespace hachaturyanov
     } while (it != order.begin());
   }
 }
+
