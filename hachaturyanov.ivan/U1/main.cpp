@@ -1,5 +1,4 @@
-#include "data.hpp"
-#include "commands.hpp"
+#include "../common/commands.hpp"
 #include "io_utils.hpp"
 
 #include <fstream>
